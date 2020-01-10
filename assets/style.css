@@ -5,38 +5,35 @@
     width: 100%;
 }
 
-.navbar-brand{
+/* .navbar-brand{
     color: white;
     background-color: #4aaaa5;
     padding-left: 15px;
     padding-right: 15px;
     
-}
+} */
 
 .navbar
 {
     background-color: #ffffff;
     border-bottom:2px solid #cccccc;
-    width: 860px;
+    width: 100%;
 }
 
-/* .linkedin{
-    float: left;
+.name{
+    align-content: center;
+    color: #4aaaa5;
+    width: 100%;
 }
-
-.github{
-    float: left;
-} */
-
 
 .content{
     background-color: #ffffff;
-    width: 860px;
-    align-content: center;
+    width: 100%;
     padding: 20px;
     margin-top: 20px;
     color: #777777;
     margin-bottom: 110px;
+    text-align: center;
 }
 
 body{
