@@ -40,6 +40,12 @@ body{
     background-image: url("../images/background.png");
 }
 
+.genrebtn{
+    /* padding: 10px; */
+    margin-right: 5px;
+    margin-bottom: 15px;
+    width: 100px;
+}
 
 footer{
     position: fixed;
