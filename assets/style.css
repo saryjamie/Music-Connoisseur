@@ -36,12 +36,27 @@
     text-align: center;
 }
 
+.title{
+    text-align: left;
+    margin-bottom: 20px;
+    color: #777777;
+    font-weight: bolder;
+}
+
+.genredescription{
+    text-align: left;
+    color: #777777;
+}
+
+.container{
+    margin: 50px;
+}
+
 body{
     background-image: url("../images/background.png");
 }
 
 .genrebtn{
-    /* padding: 10px; */
     margin-right: 5px;
     margin-bottom: 15px;
     width: 100px;
@@ -58,4 +73,17 @@ footer{
     border-top: 8px solid #4aaaa5;
     text-align: center;
     height: 50px;
+}
+
+h3{
+    font-family: 'Pinyon Script', cursive;
+    color: rgb(101, 101, 101);
+}
+
+h1{
+    font-family: 'Marcellus SC', serif;
+}
+
+h5{
+    color: rgb(101, 101, 101);
 }
