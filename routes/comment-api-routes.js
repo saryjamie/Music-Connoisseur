@@ -12,59 +12,22 @@ var db = require("../models");
 // =============================================================
 module.exports = function(app) {
 
-  // GET route for getting all of the posts
-  app.get("/api/:genreId/comments", function(req, res) {
-    var query = {};
-    if (req.query.genreID_id) {
-      query.genreId = req.query.genreID_id;
-    }
+  // Get route for retrieving comments from a single commenterName
+  app.get("/api/:commenterName/comments", function(req, res) {
     db.Comment.findAll({
-      where: query
-    }).then(function(dbGenreName) {
-      res.json(dbGenreName);
-    });
-  });
-
-  // Get route for retrieving a single post
-  app.get("/api/genreName/:id", function(req, res) {
-    db.GenreName.findOne({
       where: {
-        id: req.params.id
+        commenterName: req.params.commenterName
       }
-    }).then(function(dbGenreName) {
-      console.log(dbGenreName);
-      res.json(dbGenreName);
+    }).then(function(dbComment) {
+      console.log(dbComment);
+      res.json(dbComment);
     });
   });
 
-  // POST route for saving a new post
-  app.post("/api/comment", function(req, res) {
-    db.GenreName.create(req.body).then(function(dbGenreName) {
-      res.json(dbGenreName);
-    });
-  });
-
-  // DELETE route for deleting posts
-  app.delete("/api/comment/:id", function(req, res) {
-    db.GenreName.destroy({
-      where: {
-        id: req.params.id
-      }
-    }).then(function(dbGenreName) {
-      res.json(dbGenreName);
-    });
-  });
-
-  // PUT route for updating posts
-  app.put("/api/genreName", function(req, res) {
-    db.GenreName.update(
-      req.body,
-      {
-        where: {
-          id: req.body.id
-        }
-      }).then(function(dbGenreName) {
-      res.json(dbGenreName);
+  // POST route for saving a new comment
+  app.post("/api/comments", function(req, res) {
+    db.Comment.create(req.body).then(function(dbComment) {
+      res.json(dbComment);
     });
   });
 };
