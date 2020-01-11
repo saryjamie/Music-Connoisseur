@@ -1,7 +1,7 @@
 var db = require("../models");
 
 module.exports = function(app) {
-  // Find all Authors and return them to the user with res.json
+  // Find all Genres and return them to the user with res.json
   app.get("/api/genres", function(req, res) {
     db.Genre.findAll({ include: [db.Comment] }).then(function(dbGenres) {
       res.json(dbGenres);
