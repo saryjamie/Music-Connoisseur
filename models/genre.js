@@ -18,9 +18,9 @@ module.exports = function(sequelize, DataTypes) {
     });
   
     Genre.associate = function(models) {
-      // Associating Author with Posts
-      // When an Author is deleted, also delete any associated Posts
-      Genre.hasMany(models.Comments, {
+      // Associating Genre with Posts
+      // When a Genre is deleted, also delete any associated Posts
+      Genre.hasMany(models.Comment, {
         onDelete: "cascade"
       });
     };
