@@ -87,3 +87,7 @@ h1{
 h5{
     color: rgb(101, 101, 101);
 }
+
+#auth-name{
+    width: 30%;
+}
