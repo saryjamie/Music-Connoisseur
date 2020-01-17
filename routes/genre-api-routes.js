@@ -10,14 +10,22 @@ module.exports = function(app) {
 
   app.get("/api/genres/:name", function(req, res) {
     // Find one Genre with the name in req.params.name and return them to the user with res.json
-    db.Genre.findOne({
-      where: {
-        name: req.params.name
-      },
-      include: [db.Comment]
-    }).then(function(dbGenre) {
-      res.json(dbGenre);
-    });
+        console.log(res.params.name)
+        db.Genre.findOne({
+          where: {
+            name: res.params.name
+          },
+          include: [db.Comment]
+        }).then(function(dbGenre) {
+          res.json(dbGenre);
+          console.log(dbGenre);
+        });
+
+
+          // window.location.href = "../genre.html";
+    
+  
+
   });
 
   app.post("/api/genres", function(req, res) {
