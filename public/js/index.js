@@ -1,20 +1,18 @@
 $(document).ready(function() {
-    // Getting references to our form and inputs
-    var searchInput = $("form-control");
 
-        const searchBtn = document.getElementById("button-addon2");
-
-            searchBtn.addEventListener("click", function(event){
-                event.preventDefault();
-                var seach = initialsEl.value;
-                if (searchInput.value == '' || searchInput.value == null){
-                    resultEl.innerHTML = "<p style= 'color: red;'>Invalid input!</p>";
-                }
-                else{
-                window.location = "index.html";
-                localStorage.setItem('userInitial', JSON.stringify(userIn));
-                highScore();
-                }
-            });
+    $("#button-addon2").on("click", function(event) {
+        console.log('***** it is working');    
+        var getGenre = $("#get-genre");
+        var genre = getGenre.val().trim();
+        
+        var message = document.querySelector(".invalid-message");
+    
+        if (genre === null || genre === "" ){
+        message.innerHTML = "Invalid input. Please try again!";
+        }
+        else {
+        window.location.href = '../notFound.html';
+        };
+    });
 
 });

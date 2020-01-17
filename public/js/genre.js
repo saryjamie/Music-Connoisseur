@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // Getting references to our form and inputs
-    var textAreaComment = $("#exampleFormControlTextarea1");
+    var textAreaComment = $("#new-comment");
     var textAreaAuthor = $("#auth-name");
     var addComment = $("#add-comment");
   
