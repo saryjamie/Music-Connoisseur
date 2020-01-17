@@ -1,21 +1,21 @@
 {
   "development": {
     "username": "root",
-    "password": "Maekownz22!",
+    "password": "mysqlmysql",
     "database": "genre_database",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": "Maekownz22!",
+    "password": "mysqlmysql",
     "database": "database_test",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
-    "password": "Maekownz22!",
+    "password": "mysqlmysql",
     "database": "database_production",
     "host": "127.0.0.1",
     "dialect": "mysql"

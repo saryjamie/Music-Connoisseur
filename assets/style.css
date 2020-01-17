@@ -1,0 +1,90 @@
+
+
+#navbarNav{
+    float: right;
+    width: 100%;
+}
+
+/* .navbar-brand{
+    color: white;
+    background-color: #4aaaa5;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+} */
+
+.navbar
+{
+    background-color: #ffffff;
+    border-bottom:2px solid #cccccc;
+    width: 100%;
+}
+
+.name{
+    align-content: center;
+    color: #4aaaa5;
+    width: 100%;
+}
+
+.content{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    color: #777777;
+    margin-bottom: 110px;
+    text-align: center;
+}
+
+.title{
+    text-align: left;
+    margin-bottom: 20px;
+    color: #777777;
+    font-weight: bolder;
+}
+
+.genredescription{
+    text-align: left;
+    color: #777777;
+}
+
+.container{
+    margin: 50px;
+}
+
+
+.genrebtn{
+    margin-right: 5px;
+    margin-bottom: 15px;
+    width: 100px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:white;
+    background-color: #666666;
+    padding: 10px;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    height: 50px;
+}
+
+h3{
+    font-family: 'Pinyon Script', cursive;
+    color: rgb(101, 101, 101);
+}
+
+h1{
+    font-family: 'Marcellus SC', serif;
+}
+
+h5{
+    color: rgb(101, 101, 101);
+}
+
+#auth-name{
+    width: 30%;
+}
