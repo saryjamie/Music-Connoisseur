@@ -29,7 +29,7 @@ $(document).ready(function() {
             else if(genre === "rock"){
                 window.location.href = '../genre.html';
             }
-            else if(genre === "r & b" || "r&b" || "rhythm & blues"){
+            else if(genre === "r&b"){
                 window.location.href = '../genre.html';
             }
             else if(genre === "blues"){
