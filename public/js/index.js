@@ -41,7 +41,7 @@ $(document).ready(function() {
             else if(genre === "classical"){
                 window.location.href = '../genre.html';
             }
-            else if(genre === "regae"){
+            else if(genre === "reggae"){
                 window.location.href = '../genre.html';
             }
             else if(genre === "folk"){
@@ -101,7 +101,7 @@ $(document).ready(function() {
         console.log("**** country btn works!!");
         window.location.href = '../genre.html';
     })
-    $("#regaeBtn").on("click", function(event){
+    $("#reggaeBtn").on("click", function(event){
         console.log("**** country btn works!!");
         window.location.href = '../genre.html';
     })
