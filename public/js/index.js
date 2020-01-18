@@ -19,6 +19,11 @@ $(document).ready(function() {
             }; 
     });
 
+    $("#countryBtn").on("click", function(event){
+        console.log("**** country btn works!!");
+        window.location.href = '../genre.html';
+    })
+
         // invalidMsg();
         // callGenre();
         // const callGenre = function(){
