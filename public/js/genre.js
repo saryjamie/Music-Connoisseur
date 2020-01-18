@@ -21,7 +21,15 @@ $(document).ready(function() {
       textAreaComment.val("");
       textAreaAuthor.val("");
     });
-  
+    
+    function viewGenre(){
+      $.get("/api/genre", {
+        genreName: genreName,
+        genreDescription: genreDescription
+      })
+    }
+
+
     // loginUser does a post to our "api/login" route and if successful, redirects us the the members page
     function addCommentByAuthor(comment, authorName) {
       $.post("/api/login", {
