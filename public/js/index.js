@@ -12,49 +12,49 @@ $(document).ready(function() {
             message.innerHTML = "Invalid input. Please try again!";
             }
             else if(genre === "country"){
-                window.location.href = '../genre.html';
+                window.location.href = './genre.html';
             }
             else if(genre === "metal"){
-                window.location.href = '../genre.html';
+                window.location.href = './genre.html';
             }
             else if(genre === "jazz"){
-                window.location.href = '../genre.html';
+                window.location.href = './genre.html';
             }
             else if(genre === "punk"){
-                window.location.href = '../genre.html';
+                window.location.href = './genre.html';
             }
             else if(genre === "hip hop"){
-                window.location.href = '../genre.html';
+                window.location.href = './genre.html';
             }
             else if(genre === "rock"){
-                window.location.href = '../genre.html';
+                window.location.href = './genre.html';
             }
             else if(genre === "r&b"){
-                window.location.href = '../genre.html';
+                window.location.href = './genre.html';
             }
             else if(genre === "blues"){
-                window.location.href = '../genre.html';
+                window.location.href = './genre.html';
             }
             else if(genre === "house"){
-                window.location.href = '../genre.html';
+                window.location.href = './genre.html';
             }
             else if(genre === "classical"){
-                window.location.href = '../genre.html';
+                window.location.href = './genre.html';
             }
             else if(genre === "reggae"){
-                window.location.href = '../genre.html';
+                window.location.href = './genre.html';
             }
             else if(genre === "folk"){
-                window.location.href = '../genre.html';
+                window.location.href = './genre.html';
             }
             else if(genre === "swing"){
-                window.location.href = '../genre.html';
+                window.location.href = './genre.html';
             }
             else if(genre === "emo"){
-                window.location.href = '../genre.html';
+                window.location.href = './genre.html';
             }
             else if(genre === "pop"){
-                window.location.href = '../genre.html';
+                window.location.href = './genre.html';
             }
             else {
             window.location.href = '../notFound.html';
@@ -63,70 +63,70 @@ $(document).ready(function() {
 
     $("#metalBtn").on("click", function(event){
         console.log("**** country btn works!!");
-        window.location.href = '../genre.html';
+        window.location.href = './genre.html';
     })
     $("#jazzBtn").on("click", function(event){
         console.log("**** country btn works!!");
-        window.location.href = '../genre.html';
+        window.location.href = './genre.html';
     })
     $("#punkBtn").on("click", function(event){
         console.log("**** country btn works!!");
-        window.location.href = '../genre.html';
+        window.location.href = './genre.html';
     })
     $("#hiphopBtn").on("click", function(event){
         console.log("**** country btn works!!");
-        window.location.href = '../genre.html';
+        window.location.href = './genre.html';
     })
     $("#rockBtn").on("click", function(event){
         console.log("**** country btn works!!");
-        window.location.href = '../genre.html';
+        window.location.href = './genre.html';
     })
     $("#rbBtn").on("click", function(event){
         console.log("**** country btn works!!");
-        window.location.href = '../genre.html';
+        window.location.href = './genre.html';
     })    
     $("#bluesBtn").on("click", function(event){
         console.log("**** country btn works!!");
-        window.location.href = '../genre.html';
+        window.location.href = './genre.html';
     })
     $("#houseBtn").on("click", function(event){
         console.log("**** country btn works!!");
-        window.location.href = '../genre.html';
+        window.location.href = './genre.html';
     })
     $("#classicalBtn").on("click", function(event){
         console.log("**** country btn works!!");
-        window.location.href = '../genre.html';
+        window.location.href = './genre.html';
     })    
     $("#countryBtn").on("click", function(event){
-        window.location.href = '../genre.html/country';
+        window.location.href = './genre.html/country';
     })
     $("#reggaeBtn").on("click", function(event){
         console.log("**** country btn works!!");
-        window.location.href = '../genre.html';
+        window.location.href = './genre.html';
     })
     $("#folkBtn").on("click", function(event){
         console.log("**** country btn works!!");
-        window.location.href = '../genre.html';
+        window.location.href = './genre.html';
     })    
     $("#swingBtn").on("click", function(event){
         console.log("**** country btn works!!");
-        window.location.href = '../genre.html';
+        window.location.href = './genre.html';
     })
     $("#emoBtn").on("click", function(event){
         console.log("**** country btn works!!");
-        window.location.href = '../genre.html';
+        window.location.href = './genre.html';
     })
     $("#popBtn").on("click", function(event){
         console.log("**** country btn works!!");
-        window.location.href = '../genre.html';
+        window.location.href = './genre.html';
     })
 
-functoin for ajax to pass the button name to it
+// functoin for ajax to pass the button name to it
 
 
-    export default updateGenre = function(genre){
+    // export default updateGenre = function(genre){
 
-    }
+    // }
 
         // invalidMsg();
         // callGenre();
