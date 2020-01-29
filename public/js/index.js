@@ -98,8 +98,7 @@ $(document).ready(function() {
         window.location.href = '../genre.html';
     })    
     $("#countryBtn").on("click", function(event){
-        console.log("**** country btn works!!");
-        window.location.href = '../genre.html';
+        window.location.href = '../genre.html/country';
     })
     $("#reggaeBtn").on("click", function(event){
         console.log("**** country btn works!!");
@@ -122,6 +121,12 @@ $(document).ready(function() {
         window.location.href = '../genre.html';
     })
 
+functoin for ajax to pass the button name to it
+
+
+    export default updateGenre = function(genre){
+
+    }
 
         // invalidMsg();
         // callGenre();

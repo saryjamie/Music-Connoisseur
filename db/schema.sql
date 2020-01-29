@@ -6,7 +6,7 @@ USE genre_database;
 CREATE TABLE genre(
   id INTEGER AUTO_INCREMENT NOT NULL,
   name VARCHAR(25),
-  description VARCHAR(255),
+  description VARCHAR(5000),
   PRIMARY KEY (id)
 );
 

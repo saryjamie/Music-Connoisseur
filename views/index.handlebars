@@ -1,0 +1,32 @@
+<h1>Music genres with descriptions!</h1>
+<h2>Music Genre</h2>
+<h3>
+  {{#each genre}}
+  <h3>
+    <h4>Genre Name:</h4>
+    {{genre_name}}
+    <h4>Description:</h4>
+    {{description}}
+    <h4>Comments:</h4>
+    {{comment}}
+  </h3>
+  <br>
+  <br>
+  <label for="addComment" class="left">Add Comment:</label>
+  <input type="text" class="left" id="newComment" name="newComment">
+  <button type="submit" class="addCommentsBtn" data-id="{{this.id}}">Submit</button>
+  <hr>
+  {{/each}}
+</h3>
+<h2>Add a Genre</h2>
+<form class="create-form">
+  <div class="form-group">
+    <label for="genreName" class="center">Genre Name:</label>
+    <input type="text" class="center" id="genreName" name="genre_name">
+    <label for="description" class="center">Description:</label>
+    <input type="text" class="center" id="genreDescription" name="description">
+    <label for="comment" class="center">Comment:</label>
+    <input type="text" class="center" id="genreComment" name="comment">
+  </div>
+  <button type="submit" id="submitBtn">Submit</button>
+</form>

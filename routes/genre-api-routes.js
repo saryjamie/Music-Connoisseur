@@ -17,15 +17,10 @@ module.exports = function(app) {
           },
           include: [db.Comment]
         }).then(function(dbGenre) {
-          res.json(dbGenre);
+          res.render("genre");
           console.log(dbGenre);
         });
-
-
           // window.location.href = "../genre.html";
-    
-  
-
   });
 
   app.post("/api/genres", function(req, res) {
